@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Leaf Animation</title>
+</head>
+<body>
+    <div class='wrapper'>
+        <div class='container'>
+            <p class='label'>Plant</p>
+
+            <label class="switch" id='switch'>
+                <input id="switch-input" type="checkbox" onclick="animatePlant()">
+                <span class="slider round"></span>
+            </label>
+
+            <svg class='plant' id='plant' width="80" height="100" viewBox="0 0 45 70" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class='stem' x="21.5186" y="41.8526" width="6" height="25" rx="3" fill="#2ACCBA"/>
+                <path class='leaf-1' d="M22.0904 48.7303C26.3631 48.2168 31.4622 44.4196 35.0768 38.5856C38.6915 32.7516 39.8215 26.4952 38.3791 22.4407C34.1064 22.9542 29.0073 26.7514 25.3926 32.5854C21.7779 38.4194 20.648 44.6758 22.0904 48.7303Z" fill="#27A395"/>
+                <path class='leaf-2' d="M26.0941 43.5607C28.3205 38.166 27.3202 29.1372 23.0023 20.1806C18.6845 11.2239 12.244 4.81781 6.63685 3.19949C4.41052 8.59417 5.41084 17.6229 9.72866 26.5796C14.0465 35.5363 20.487 41.9423 26.0941 43.5607Z" fill="#2ACCBA"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>
